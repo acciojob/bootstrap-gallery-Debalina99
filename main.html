@@ -1,42 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sync5 Cards</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>Cards Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+  <style>
+    .card img {
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    .card {
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .card h6,
+    .card p {
+      text-align: center;
+    }
+  </style>
 </head>
-<body class="bg-light p-4">
+<body>
 
-  <h1>Welcome to Sync5</h1>
-  
-  <div class="card mb-3">
-    <div class="card-header">New Features</div>
-    <div class="card-body">
-      <h5 class="card-title">Mobile and Tablet support</h5>
-      <p class="card-text">
-        With this new update you will be able to sync your work across large number of platforms.
-      </p>
-      <a href="#" class="btn btn-primary">Read more</a>
+  <div class="container my-4">
+    <h2 class="text-center mb-4">Cards Gallery</h2>
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="card-img-top" alt="Image 1">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="Image 2">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top" alt="Image 3">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div>
+
+		<div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top" alt="Image 3">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div>
+		<div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top" alt="Image 3">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div>
+		<div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a class="lightbox" href="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top" alt="Image 3">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a href="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg" class="card-img-top" alt="Image 4">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a href="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg" class="card-img-top" alt="Image 5">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-sm-6 col-md-4">
+        <div class="card shadow-sm">
+          <a href="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg" class="glightbox" data-gallery="images">
+            <img src="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg" class="card-img-top" alt="Image 6">
+          </a>
+          <div class="card-body">
+            <h6>Lorem Ipsum</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+          </div>
+        </div>
+      </div> -->
+
     </div>
   </div>
 
-  <div class="card mb-3 bg-danger text-white col-sm-4 col-md-5">
-    <div class="card-header">Alert</div>
-    <div class="card-body">
-      <h5 class="card-title">Node Dead</h5>
-      <p class="card-text">Node 5 (east-us) is offline for last 12 days.</p>
-    </div>
-  </div>
 
-  <div class="card mb-3">
-    <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Placeholder image">
-    <div class="card-body">
-      <h5 class="card-title">President under Pressure</h5>
-      <p class="card-text">The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
-      <p class="card-text"><small class="text-muted">Last updated 12 mins ago</small></p>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
